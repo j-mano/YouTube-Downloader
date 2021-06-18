@@ -1,0 +1,11 @@
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\bin\Release\net5.0\YouTubeDownloadProject.deps.json
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\bin\Release\net5.0\YouTubeDownloadProject.dll
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\bin\Release\net5.0\ref\YouTubeDownloadProject.dll
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\bin\Release\net5.0\YouTubeDownloadProject.pdb
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Release\net5.0\YouTubeDownloadProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Release\net5.0\YouTubeDownloadProject.AssemblyInfoInputs.cache
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Release\net5.0\YouTubeDownloadProject.AssemblyInfo.cs
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Release\net5.0\YouTubeDownloadProject.csproj.CoreCompileInputs.cache
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Release\net5.0\YouTubeDownloadProject.dll
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Release\net5.0\ref\YouTubeDownloadProject.dll
+C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Release\net5.0\YouTubeDownloadProject.pdb

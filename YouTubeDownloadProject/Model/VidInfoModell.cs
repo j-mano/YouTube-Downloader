@@ -1,4 +1,5 @@
 ﻿using System;
+using YoutubeExplode;
 
 namespace YouTubeDownloadProject.Model
 {
@@ -10,6 +11,6 @@ namespace YouTubeDownloadProject.Model
         public TimeSpan Duration { get; set; }
         public string Description { get; set; }
         public string Author { get; set; }
-        // public var StreamManifest { get; set; }
+        public YoutubeExplode.Common.Thumbnail thumb { get; set; }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joachim\\Downloads\\YouTube_Downloader\\YouTube_Downloader.csproj": {}
+    "C:\\Users\\Joachim\\source\\repos\\YouTube_Downloader\\YouTube_Downloader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joachim\\Downloads\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj": {
+    "C:\\Users\\Joachim\\source\\repos\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joachim\\Downloads\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj",
+        "projectUniqueName": "C:\\Users\\Joachim\\source\\repos\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj",
         "projectName": "YouTubeDownloadProject",
-        "projectPath": "C:\\Users\\Joachim\\Downloads\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj",
+        "projectPath": "C:\\Users\\Joachim\\source\\repos\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj",
         "packagesPath": "C:\\Users\\Joachim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joachim\\Downloads\\YouTubeDownloadProject\\obj\\",
+        "outputPath": "C:\\Users\\Joachim\\source\\repos\\YouTubeDownloadProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,6 +51,10 @@
             "YoutubeExplode": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "YoutubeExplode.Converter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [
@@ -72,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\Joachim\\Downloads\\YouTube_Downloader\\YouTube_Downloader.csproj": {
+    "C:\\Users\\Joachim\\source\\repos\\YouTube_Downloader\\YouTube_Downloader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joachim\\Downloads\\YouTube_Downloader\\YouTube_Downloader.csproj",
+        "projectUniqueName": "C:\\Users\\Joachim\\source\\repos\\YouTube_Downloader\\YouTube_Downloader.csproj",
         "projectName": "YouTube_Downloader",
-        "projectPath": "C:\\Users\\Joachim\\Downloads\\YouTube_Downloader\\YouTube_Downloader.csproj",
+        "projectPath": "C:\\Users\\Joachim\\source\\repos\\YouTube_Downloader\\YouTube_Downloader.csproj",
         "packagesPath": "C:\\Users\\Joachim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joachim\\Downloads\\YouTube_Downloader\\obj\\",
+        "outputPath": "C:\\Users\\Joachim\\source\\repos\\YouTube_Downloader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +104,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\Joachim\\Downloads\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj": {
-                "projectPath": "C:\\Users\\Joachim\\Downloads\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj"
+              "C:\\Users\\Joachim\\source\\repos\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj": {
+                "projectPath": "C:\\Users\\Joachim\\source\\repos\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj"
               }
             }
           }
@@ -115,6 +119,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

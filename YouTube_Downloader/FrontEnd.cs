@@ -1,10 +1,13 @@
-﻿using System;
+﻿using AngleSharp;
+using MySql.Data.MySqlClient.Memcached;
+using MySqlX.XDevAPI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Text;
-using System.Threading.Tasks;
+using System.Net;
+using System.Security.Policy;
 using System.Windows.Forms;
 using YouTubeDownloadProject.Model;
 using YouTubeDownloadProject.Services;
@@ -45,12 +48,17 @@ namespace YouTube_Downloader
         // Api calls
         private async void getYoutubeInfo()
         {
+            WebClient client = new WebClient();
+
             try
             {
                 SelectedVidInfo = await RetriveYouTubeVidInfo.getYoutubeVidAsync(GetEntertYoutubeLink());
+
+                pictureBox1.ImageLocation = SelectedVidInfo.thumb.Url.Trim();
+
                 printOutInfo();
             }
-            catch
+            catch(Exception er)
             {
                 Console.WriteLine("Error, Retriving information about youtube vid.");
                 YouTubbeLinkInput_Textbox.Text = "Error, Retriving information about youtube vid. Write in a new one";
@@ -77,6 +85,32 @@ namespace YouTube_Downloader
         {
             Description_TextBox.Text = "Duration: " + SelectedVidInfo.Duration + "\n" + "Description: " + "\n" + SelectedVidInfo.Description ;
             VideoTitle_LBL.Text = "Title of the clip: " + SelectedVidInfo.VidTitle;
+        }
+
+        public System.Drawing.Image DownloadImageFromUrl(string imageUrl)
+        {
+            System.Drawing.Image image = null;
+
+            try
+            {
+                System.Net.HttpWebRequest webRequest = (System.Net.HttpWebRequest)System.Net.HttpWebRequest.Create(imageUrl);
+                webRequest.AllowWriteStreamBuffering = true;
+                webRequest.Timeout = 30000;
+
+                WebResponse webResponse = webRequest.GetResponse();
+
+                System.IO.Stream stream = webResponse.GetResponseStream();
+
+                image = Image.FromStream(stream);
+
+                webResponse.Close();
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+
+            return image;
         }
     }
 }

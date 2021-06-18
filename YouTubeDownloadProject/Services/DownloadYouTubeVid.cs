@@ -5,12 +5,20 @@ using System.Threading.Tasks;
 using YouTubeDownloadProject.Model;
 using YoutubeExplode;
 using YoutubeExplode.Videos.Streams;
+using YoutubeExplode.Converter;
 
 namespace YouTubeDownloadProject.Services
 {
     public class DownloadYouTubeVid
     {
+        // Youtube Download api:
         // https://github.com/Tyrrrz/YoutubeExplode
+
+        /// <summary>
+        /// Download 720/30 fps as maximum or highest resolution by uploader.
+        /// </summary>
+        /// <param name="VidToDownload"></param>
+        /// <returns></returns>
 
         public static async Task DownloadYouTubeVidFunction(VidInfoModell VidToDownload)
         {
@@ -18,6 +26,7 @@ namespace YouTubeDownloadProject.Services
 
             try
             {
+                Console.WriteLine("Start Downloading");
                 var streamManifest = await youtube.Videos.Streams.GetManifestAsync(VidToDownload.id);
 
                 var streamInfo = streamManifest.GetMuxedStreams().GetWithHighestVideoQuality();
@@ -27,7 +36,7 @@ namespace YouTubeDownloadProject.Services
             }
             catch
             {
-                
+                Console.WriteLine("Error while downloading");
             }
             /*
              * Note that while it may be tempting to just always use muxed streams, given that they contain both audio and video,
@@ -37,13 +46,45 @@ namespace YouTubeDownloadProject.Services
              * https://github.com/Tyrrrz/YoutubeExplode.Converter
              */
         }
+        /// <summary>
+        /// Download highest posible video stream
+        /// </summary>
+        /// <param name="VidToDownload"></param>
+        public static async void HighEndDownload(VidInfoModell VidToDownload)
+        {
+            var youtube = new YoutubeClient();
 
+            try
+            {
+                // Get stream manifest
+                var streamManifest = await youtube.Videos.Streams.GetManifestAsync(VidToDownload.id);
+
+                // Select streams (GetWith Highest VideoQuality / highest bitrate audio)
+                var audioStreamInfo = streamManifest.GetAudioStreams().GetWithHighestBitrate();
+                var videoStreamInfo = streamManifest.GetVideoStreams().GetWithHighestVideoQuality();
+                var streamInfos = new IStreamInfo[] { audioStreamInfo, videoStreamInfo };
+
+                // Download and process them into one file
+                await youtube.Videos.DownloadAsync(streamInfos, new ConversionRequestBuilder("video.mp4").Build());
+            }
+            catch
+            {
+
+            }
+
+        }
+        /// <summary>
+        /// Download video only
+        /// </summary>
+        /// <param name="VidToDownload"></param>
+        /// <returns></returns>
         public static async Task DownloadYouTubeVidFunctionVideoOnly(VidInfoModell VidToDownload)
         {
             var youtube = new YoutubeClient();
 
             try
             {
+                Console.WriteLine("Start Downloading");
                 var streamManifest = await youtube.Videos.Streams.GetManifestAsync(VidToDownload.id);
 
                 var streamInfo = streamManifest
@@ -59,13 +100,18 @@ namespace YouTubeDownloadProject.Services
 
             }
         }
-
+        /// <summary>
+        /// Download Audio only
+        /// </summary>
+        /// <param name="VidToDownload"></param>
+        /// <returns></returns>
         public static async Task DownloadYouTubeVidFunctionAudioOnly(VidInfoModell VidToDownload)
         {
             var youtube = new YoutubeClient();
 
             try
             {
+                Console.WriteLine("Start Downloading");
                 var streamManifest = await youtube.Videos.Streams.GetManifestAsync(VidToDownload.id);
 
                 var streamInfo = streamManifest.GetAudioOnlyStreams().GetWithHighestBitrate();

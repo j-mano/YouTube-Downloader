@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GJOxvAoj28ZiM4zK4I83cqMHf6sGNo0Eiu9zrlvW5COPHM7YrT+HpBiRTlACm7ulSw66Q9+SA44kHfYrPvHtTA==",
+  "dgSpecHash": "02sAS1uBoPIXxVHu9XfNHT5tkjP3ccDgD/HrLNeKAU+2bYKQV6snlHAolZYkR4oh5fLB0lLWndZ0tDNCofJtGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joachim\\Downloads\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj",
+  "projectFilePath": "C:\\Users\\Joachim\\source\\repos\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joachim\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\cliwrap\\3.3.2\\cliwrap.3.3.2.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\google.apis\\1.52.0\\google.apis.1.52.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\google.apis.auth\\1.52.0\\google.apis.auth.1.52.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\google.apis.core\\1.52.0\\google.apis.core.1.52.0.nupkg.sha512",
@@ -14,7 +15,8 @@
     "C:\\Users\\Joachim\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\Joachim\\.nuget\\packages\\youtubeexplode\\6.0.2\\youtubeexplode.6.0.2.nupkg.sha512"
+    "C:\\Users\\Joachim\\.nuget\\packages\\youtubeexplode\\6.0.2\\youtubeexplode.6.0.2.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\youtubeexplode.converter\\2.1.0\\youtubeexplode.converter.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }
