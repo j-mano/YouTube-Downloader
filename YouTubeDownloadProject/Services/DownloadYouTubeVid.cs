@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using YouTubeDownloadProject.Model;
@@ -19,7 +18,6 @@ namespace YouTubeDownloadProject.Services
         /// </summary>
         /// <param name="VidToDownload"></param>
         /// <returns></returns>
-
         public static async Task DownloadYouTubeVidFunction(VidInfoModell VidToDownload)
         {
             var youtube = new YoutubeClient();
@@ -46,11 +44,12 @@ namespace YouTubeDownloadProject.Services
              * https://github.com/Tyrrrz/YoutubeExplode.Converter
              */
         }
+
         /// <summary>
-        /// Download highest posible video stream
+        /// Download highest posible video resoultion and fps update.
         /// </summary>
         /// <param name="VidToDownload"></param>
-        public static async void HighEndDownload(VidInfoModell VidToDownload)
+        public static async Task HighEndDownload(VidInfoModell VidToDownload, int Resolution, int FrameRate)
         {
             var youtube = new YoutubeClient();
 
@@ -62,50 +61,81 @@ namespace YouTubeDownloadProject.Services
                 // Select streams (GetWith Highest VideoQuality / highest bitrate audio)
                 var audioStreamInfo = streamManifest.GetAudioStreams().GetWithHighestBitrate();
                 var videoStreamInfo = streamManifest.GetVideoStreams().GetWithHighestVideoQuality();
+
+                if (Resolution != 0)
+                {
+                    string ResolutionLetter = "";
+
+                    if (Resolution <= 1440)
+                        ResolutionLetter = "p";
+                    else
+                        ResolutionLetter = "k";
+
+                    videoStreamInfo = streamManifest.GetVideoStreams().First(s => s.VideoQuality.Label == Resolution.ToString() + ResolutionLetter + FrameRate.ToString());
+                }
+
                 var streamInfos = new IStreamInfo[] { audioStreamInfo, videoStreamInfo };
 
+
                 // Download and process them into one file
-                await youtube.Videos.DownloadAsync(streamInfos, new ConversionRequestBuilder("video.mp4").Build());
+                await youtube.Videos.DownloadAsync(streamInfos, new ConversionRequestBuilder(VidToDownload.VidTitle + ".mp4").Build());
             }
             catch
             {
-
+                Console.WriteLine("Error while downloading");
             }
-
         }
+
         /// <summary>
-        /// Download video only
+        /// Download video only. Highest possible quality
         /// </summary>
         /// <param name="VidToDownload"></param>
         /// <returns></returns>
-        public static async Task DownloadYouTubeVidFunctionVideoOnly(VidInfoModell VidToDownload)
+        public static async Task DownloadYouTubeVidFunctionVideoOnly(VidInfoModell VidToDownload, int Resolution,int framerate)
         {
             var youtube = new YoutubeClient();
 
             try
             {
                 Console.WriteLine("Start Downloading");
+
                 var streamManifest = await youtube.Videos.Streams.GetManifestAsync(VidToDownload.id);
 
                 var streamInfo = streamManifest
-                .GetVideoOnlyStreams()
-                .Where(s => s.Container == Container.Mp4)
-                .GetWithHighestVideoQuality();
+                    .GetVideoOnlyStreams()
+                    .Where(s => s.Container == Container.Mp4)
+                    .GetWithHighestVideoQuality();
 
+                if (Resolution != 0)
+                {
+                    string ResolutionLetter = "";
+
+                    if (Resolution <= 1440)
+                        ResolutionLetter = "p";
+                    else
+                        ResolutionLetter = "k";
+
+
+                    streamInfo = streamManifest
+                    .GetVideoOnlyStreams()
+                    .Where(s => s.Container == Container.Mp4)
+                    .First(s => s.VideoQuality.Label == Resolution.ToString() + ResolutionLetter + framerate.ToString());
+                }
                 // Download the stream to a file. Local aplication folder.
                 await youtube.Videos.Streams.DownloadAsync(streamInfo, $"video.{streamInfo.Container}");
             }
             catch
             {
-
+                Console.WriteLine("Error while downloading");
             }
         }
+
         /// <summary>
-        /// Download Audio only
+        /// Download Audio only.
         /// </summary>
         /// <param name="VidToDownload"></param>
         /// <returns></returns>
-        public static async Task DownloadYouTubeVidFunctionAudioOnly(VidInfoModell VidToDownload)
+        public static async Task DownloadYouTubeVidFunctionAudioOnly(VidInfoModell VidToDownload, int bitrate)
         {
             var youtube = new YoutubeClient();
 
@@ -121,7 +151,7 @@ namespace YouTubeDownloadProject.Services
             }
             catch
             {
-
+                Console.WriteLine("Error while downloading");
             }
         }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cGYB5hw5OSqWK/EswIbzN5QsRHpu9+QA2tU8j5YgPOP3toP62qaFthXWM/HKSC3aepTtUbamk291Gb1lcupMMg==",
+  "dgSpecHash": "okEsCkiyPcU0xUFxyUEuI3/JXzM8NxSrMnSGjZwxtbWvbK4bCXmNbjOXCw2R/yOjMPFIGYvFFC8ckHcgnEu5aw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joachim\\source\\repos\\YouTube_Downloader\\YouTube_Downloader.csproj",
+  "projectFilePath": "C:\\Users\\Joachim\\Documents\\KodningsProject gitHub repos\\YouTube Downloader\\YouTube_Downloader\\YouTube_Downloader.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joachim\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
@@ -31,7 +31,7 @@
     "C:\\Users\\Joachim\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\Joachim\\.nuget\\packages\\youtubeexplode\\6.0.2\\youtubeexplode.6.0.2.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\youtubeexplode\\6.0.3\\youtubeexplode.6.0.3.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\youtubeexplode.converter\\2.1.0\\youtubeexplode.converter.2.1.0.nupkg.sha512"
   ],
   "logs": []
