@@ -84,3 +84,38 @@ C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e3
 C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTube_Downloader\obj\Debug\net5.0-windows\ref\YouTube_Downloader.dll
 C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.pdb
 C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.genruntimeconfig.cache
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.csproj.AssemblyReference.cache
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.FrontEnd.resources
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.Properties.Resources.resources
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.FrontEnd.en.resources
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.csproj.GenerateResource.cache
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.AssemblyInfoInputs.cache
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.AssemblyInfo.cs
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.csproj.CoreCompileInputs.cache
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\ref\YouTube_Downloader.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.pdb
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\YouTube_Downloader.exe
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\YouTube_Downloader.deps.json
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\YouTube_Downloader.runtimeconfig.json
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\YouTube_Downloader.runtimeconfig.dev.json
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\YouTube_Downloader.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\ref\YouTube_Downloader.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\YouTube_Downloader.pdb
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\en\YouTube_Downloader.resources.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\AngleSharp.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\CliWrap.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\Google.Apis.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\Google.Apis.Auth.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\Google.Apis.Core.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\Google.Apis.YouTube.v3.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\YoutubeExplode.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\YoutubeExplode.Converter.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\YouTubeDownloadProject.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\YouTubeDownloadProject.pdb
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\en\YouTube_Downloader.resources.dll
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.csproj.CopyComplete
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.genruntimeconfig.cache

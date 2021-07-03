@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E/7JtgOelciGPGymP0U+EX+6RzHdnS484nEUrlovJEd8DIsdEivCfykLaV2OR0zJIURWX9bOHGj+HivAr6fKPQ==",
+  "dgSpecHash": "E3cbWKuxomgvN9Cmnc4ib4UwgXvqZ0UQ30D8CYVs77gs8CS8mpQi6YP8SSbAalZxrxvXpB3j0h+LzFiiMoxUpg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joachim\\Downloads\\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj",
+  "projectFilePath": "C:\\Users\\Joachim\\Documents\\KodningsProject gitHub repos\\YouTube-Downloader\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joachim\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\cliwrap\\3.3.2\\cliwrap.3.3.2.nupkg.sha512",

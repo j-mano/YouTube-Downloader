@@ -1,13 +1,6 @@
-﻿using AngleSharp;
-using MySql.Data.MySqlClient.Memcached;
-using MySqlX.XDevAPI;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using System;
 using System.Drawing;
 using System.Net;
-using System.Security.Policy;
 using System.Windows.Forms;
 using YouTubeDownloadProject.Model;
 using YouTubeDownloadProject.Services;

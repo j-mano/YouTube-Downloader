@@ -8,8 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "YouTubeDownloadProject/1.0.0": {
         "dependencies": {
-          "Google.Apis.YouTube.v3": "1.52.0.2343",
-          "YoutubeExplode": "6.0.2",
+          "Google.Apis.YouTube.v3": "1.52.0.2366",
+          "YoutubeExplode": "6.0.4",
           "YoutubeExplode.Converter": "2.1.0"
         },
         "runtime": {
@@ -73,15 +73,15 @@
           }
         }
       },
-      "Google.Apis.YouTube.v3/1.52.0.2343": {
+      "Google.Apis.YouTube.v3/1.52.0.2366": {
         "dependencies": {
           "Google.Apis": "1.52.0",
           "Google.Apis.Auth": "1.52.0"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
-            "assemblyVersion": "1.52.0.2343",
-            "fileVersion": "1.52.0.2343"
+            "assemblyVersion": "1.52.0.2366",
+            "fileVersion": "1.52.0.2366"
           }
         }
       },
@@ -101,23 +101,21 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.0"
         }
       },
-      "System.Text.Json/4.7.2": {},
-      "YoutubeExplode/6.0.2": {
+      "YoutubeExplode/6.0.4": {
         "dependencies": {
-          "AngleSharp": "0.14.0",
-          "System.Text.Json": "4.7.2"
+          "AngleSharp": "0.14.0"
         },
         "runtime": {
           "lib/net5.0/YoutubeExplode.dll": {
-            "assemblyVersion": "6.0.2.0",
-            "fileVersion": "6.0.2.0"
+            "assemblyVersion": "6.0.4.0",
+            "fileVersion": "6.0.4.0"
           }
         }
       },
       "YoutubeExplode.Converter/2.1.0": {
         "dependencies": {
           "CliWrap": "3.3.2",
-          "YoutubeExplode": "6.0.2"
+          "YoutubeExplode": "6.0.4"
         },
         "runtime": {
           "lib/net5.0/YoutubeExplode.Converter.dll": {
@@ -169,12 +167,12 @@
       "path": "google.apis.core/1.52.0",
       "hashPath": "google.apis.core.1.52.0.nupkg.sha512"
     },
-    "Google.Apis.YouTube.v3/1.52.0.2343": {
+    "Google.Apis.YouTube.v3/1.52.0.2366": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-mSFX5nSqpPOpPbL0U2n/gBXa4IfwK8v3LMEyaGoYbR9rOV7Uy6mWcLc5b0J3jfq900Ulobyy+boKb+kCtLzHCw==",
-      "path": "google.apis.youtube.v3/1.52.0.2343",
-      "hashPath": "google.apis.youtube.v3.1.52.0.2343.nupkg.sha512"
+      "sha512": "sha512-20k7A7D5mmxWiVLaqyycwNU1LwfMS58FGv165DJRp4JNLjVpKumWLzijJiX8CE2Jri5s23TZgS+TJDWiiEFysg==",
+      "path": "google.apis.youtube.v3/1.52.0.2366",
+      "hashPath": "google.apis.youtube.v3.1.52.0.2366.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/2.0.0": {
       "type": "package",
@@ -204,19 +202,12 @@
       "path": "system.text.encoding.codepages/4.5.0",
       "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
     },
-    "System.Text.Json/4.7.2": {
+    "YoutubeExplode/6.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
-      "path": "system.text.json/4.7.2",
-      "hashPath": "system.text.json.4.7.2.nupkg.sha512"
-    },
-    "YoutubeExplode/6.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-samzoiZlI9mAsZsYm/D/k7/6PCzpSLseBVAQtD+uSk5NUo94COu9D8XcWZE/kawoTo8g9UrQ1SKQFwQQ4kGMyA==",
-      "path": "youtubeexplode/6.0.2",
-      "hashPath": "youtubeexplode.6.0.2.nupkg.sha512"
+      "sha512": "sha512-1m0JrNjM7HO2V37Yj5r5S9oAh5+92Z8Ytt7+11R90ftjxchtGHDYlcVQEHA6rfZtuDlkHF3bOOsPY4Q+c+nTvQ==",
+      "path": "youtubeexplode/6.0.4",
+      "hashPath": "youtubeexplode.6.0.4.nupkg.sha512"
     },
     "YoutubeExplode.Converter/2.1.0": {
       "type": "package",
