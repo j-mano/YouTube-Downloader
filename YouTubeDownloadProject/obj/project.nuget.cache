@@ -1,16 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "k+bRNOG4UXzH13dNVd7aYfY+9WKulTgk25SEAHkD0rwxjo/vfhQ2zzy9HJCQstZhhrvfV4AMh3MQhvDb3itZyg==",
+  "dgSpecHash": "E/7JtgOelciGPGymP0U+EX+6RzHdnS484nEUrlovJEd8DIsdEivCfykLaV2OR0zJIURWX9bOHGj+HivAr6fKPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Joachim\\Documents\\KodningsProject gitHub repos\\YouTube Downloader\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj",
+  "projectFilePath": "C:\\Users\\Joachim\\Downloads\\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Joachim\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\cliwrap\\3.3.2\\cliwrap.3.3.2.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\google.apis\\1.52.0\\google.apis.1.52.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\google.apis.auth\\1.52.0\\google.apis.auth.1.52.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\google.apis.core\\1.52.0\\google.apis.core.1.52.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\google.apis.youtube.v3\\1.52.0.2366\\google.apis.youtube.v3.1.52.0.2366.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
-    "C:\\Users\\Joachim\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\Joachim\\.nuget\\packages\\youtubeexplode\\6.0.3\\youtubeexplode.6.0.3.nupkg.sha512",
+    "C:\\Users\\Joachim\\.nuget\\packages\\youtubeexplode\\6.0.4\\youtubeexplode.6.0.4.nupkg.sha512",
     "C:\\Users\\Joachim\\.nuget\\packages\\youtubeexplode.converter\\2.1.0\\youtubeexplode.converter.2.1.0.nupkg.sha512"
   ],
   "logs": []

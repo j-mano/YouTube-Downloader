@@ -1,6 +1,13 @@
-﻿using System;
+﻿using AngleSharp;
+using MySql.Data.MySqlClient.Memcached;
+using MySqlX.XDevAPI;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
 using System.Net;
+using System.Security.Policy;
 using System.Windows.Forms;
 using YouTubeDownloadProject.Model;
 using YouTubeDownloadProject.Services;
@@ -29,17 +36,7 @@ namespace YouTube_Downloader
 
         private void Download_BTN_Click(object sender, EventArgs e)
         {
-            DownloadVideo(720,30);
-        }
-
-        private void Download_Max_Res_Click(object sender, EventArgs e)
-        {
-            DownloadVideo(0,0);
-        }
-
-        private void Download_Audio_BTN_Click(object sender, EventArgs e)
-        {
-            DownloadAudio(50);
+            DownloadVideo();
         }
 
         // Retrive info from frontend.
@@ -64,41 +61,20 @@ namespace YouTube_Downloader
             catch(Exception er)
             {
                 Console.WriteLine("Error, Retriving information about youtube vid." + er);
-                YouTubbeLinkInput_Textbox.Text = "Error, Retriving information about the selected youtube vid. Write in a new one";
-                Description_TextBox.Text = er.ToString();
-            }
-        }
-        //Downloading video + audio
-        private async void DownloadVideo(int resolution, int fps)
-        {
-            try
-            {
-                DownloadProgressLBL.Text = "Downloading";
-                
-                if(resolution <= 720 && resolution != 0)
-                    await DownloadYouTubeVid.DownloadYouTubeVidFunction(SelectedVidInfo);
-                else
-                    await DownloadYouTubeVid.HighEndDownload(SelectedVidInfo, resolution, fps);
-
-                DownloadProgressLBL.Text = "Downloaded to Aplication Folder";
-            }
-            catch (Exception er)
-            {
-                Console.WriteLine("Error, Downloading youtube vid." + er);
-                YouTubbeLinkInput_Textbox.Text = "Error, Downloading youtube vid. Try Again";
+                YouTubbeLinkInput_Textbox.Text = "Error, Retriving information about youtube vid. Write in a new one";
                 Description_TextBox.Text = er.ToString();
             }
         }
 
-        private async void DownloadAudio(int bitrate)
+        private async void DownloadVideo()
         {
             try
             {
                 DownloadProgressLBL.Text = "Downloading";
-                await DownloadYouTubeVid.DownloadYouTubeVidFunctionAudioOnly(SelectedVidInfo, bitrate);
+                await DownloadYouTubeVid.DownloadYouTubeVidFunction(SelectedVidInfo);
                 DownloadProgressLBL.Text = "Downloaded to Aplication Folder";
             }
-            catch (Exception er)
+            catch(Exception er)
             {
                 Console.WriteLine("Error, Downloading youtube vid." + er);
                 YouTubbeLinkInput_Textbox.Text = "Error, Downloading youtube vid. Try Again";

@@ -78,7 +78,7 @@
     <value>12, 68</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>661, 301</value>
+    <value>572, 301</value>
   </data>
   <data name="Description_LBL.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 372</value>
@@ -92,18 +92,11 @@
   <data name="YouTubbeLinkInput_Textbox.Size" type="System.Drawing.Size, System.Drawing">
     <value>491, 23</value>
   </data>
-  <data name="Download_LowRes_BTN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>509, 407</value>
+  <data name="Download_BTN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>509, 390</value>
   </data>
-  <data name="Download_LowRes_BTN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>164, 23</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Download_LowRes_BTN.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="Download_LowRes_BTN.Text" xml:space="preserve">
-    <value>Download Video</value>
+  <data name="Download_BTN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="Exit_BTN.Location" type="System.Drawing.Point, System.Drawing">
     <value>509, 584</value>
@@ -123,80 +116,11 @@
   <data name="DownloadProgressLBL.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 15</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 390</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 15</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>720P MAX</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>509, 437</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 15</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Max Resolution</value>
-  </data>
-  <data name="Download_HigRes_BTN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 456</value>
-  </data>
-  <data name="Download_HigRes_BTN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 23</value>
-  </data>
-  <data name="Download_HigRes_BTN.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="Download_HigRes_BTN.Text" xml:space="preserve">
-    <value>Download Video</value>
-  </data>
-  <data name="Download_Audio_BTN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 504</value>
-  </data>
-  <data name="Download_Audio_BTN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 23</value>
-  </data>
-  <data name="Download_Audio_BTN.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="Download_Audio_BTN.Text" xml:space="preserve">
-    <value>Download Audio</value>
-  </data>
-  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 486</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 15</value>
-  </data>
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Download Audio</value>
-  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>685, 619</value>
+    <value>596, 619</value>
   </data>
   <data name="$this.Font" type="Microsoft.DotNet.DesignTools.Utilities.Resources.ResXNullRef, Microsoft.DotNet.DesignTools.Server">
     <value />

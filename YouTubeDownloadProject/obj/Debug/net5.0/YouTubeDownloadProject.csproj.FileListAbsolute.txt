@@ -10,3 +10,15 @@ C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Debug\net5.0\YouTubeDow
 C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Debug\net5.0\YouTubeDownloadProject.dll
 C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Debug\net5.0\ref\YouTubeDownloadProject.dll
 C:\Users\Joachim\source\repos\YouTubeDownloadProject\obj\Debug\net5.0\YouTubeDownloadProject.pdb
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\bin\Debug\net5.0\YouTubeDownloadProject.deps.json
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\bin\Debug\net5.0\YouTubeDownloadProject.dll
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\bin\Debug\net5.0\ref\YouTubeDownloadProject.dll
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\bin\Debug\net5.0\YouTubeDownloadProject.pdb
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\obj\Debug\net5.0\YouTubeDownloadProject.csproj.AssemblyReference.cache
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\obj\Debug\net5.0\YouTubeDownloadProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\obj\Debug\net5.0\YouTubeDownloadProject.AssemblyInfoInputs.cache
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\obj\Debug\net5.0\YouTubeDownloadProject.AssemblyInfo.cs
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\obj\Debug\net5.0\YouTubeDownloadProject.csproj.CoreCompileInputs.cache
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\obj\Debug\net5.0\YouTubeDownloadProject.dll
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\obj\Debug\net5.0\ref\YouTubeDownloadProject.dll
+C:\Users\Joachim\Downloads\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\YouTubeDownloadProject\obj\Debug\net5.0\YouTubeDownloadProject.pdb

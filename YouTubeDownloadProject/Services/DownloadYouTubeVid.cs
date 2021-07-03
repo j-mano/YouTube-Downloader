@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using YouTubeDownloadProject.Model;
@@ -46,10 +47,12 @@ namespace YouTubeDownloadProject.Services
         }
 
         /// <summary>
-        /// Download highest posible video resoultion and fps update.
+        /// Put in 0 to get highest resolution and framerate the youtuber has put up or put in specifik resulotion.
         /// </summary>
         /// <param name="VidToDownload"></param>
-        public static async Task HighEndDownload(VidInfoModell VidToDownload, int Resolution, int FrameRate)
+        /// <param name="Resolution"></param>
+        /// <param name="FrameRate"></param>
+        public static async void HighEndDownload(VidInfoModell VidToDownload, int Resolution, int FrameRate)
         {
             var youtube = new YoutubeClient();
 
@@ -87,40 +90,24 @@ namespace YouTubeDownloadProject.Services
         }
 
         /// <summary>
-        /// Download video only. Highest possible quality
+        /// Download video only
         /// </summary>
         /// <param name="VidToDownload"></param>
         /// <returns></returns>
-        public static async Task DownloadYouTubeVidFunctionVideoOnly(VidInfoModell VidToDownload, int Resolution,int framerate)
+        public static async Task DownloadYouTubeVidFunctionVideoOnly(VidInfoModell VidToDownload)
         {
             var youtube = new YoutubeClient();
 
             try
             {
                 Console.WriteLine("Start Downloading");
-
                 var streamManifest = await youtube.Videos.Streams.GetManifestAsync(VidToDownload.id);
 
                 var streamInfo = streamManifest
-                    .GetVideoOnlyStreams()
-                    .Where(s => s.Container == Container.Mp4)
-                    .GetWithHighestVideoQuality();
+                .GetVideoOnlyStreams()
+                .Where(s => s.Container == Container.Mp4)
+                .GetWithHighestVideoQuality();
 
-                if (Resolution != 0)
-                {
-                    string ResolutionLetter = "";
-
-                    if (Resolution <= 1440)
-                        ResolutionLetter = "p";
-                    else
-                        ResolutionLetter = "k";
-
-
-                    streamInfo = streamManifest
-                    .GetVideoOnlyStreams()
-                    .Where(s => s.Container == Container.Mp4)
-                    .First(s => s.VideoQuality.Label == Resolution.ToString() + ResolutionLetter + framerate.ToString());
-                }
                 // Download the stream to a file. Local aplication folder.
                 await youtube.Videos.Streams.DownloadAsync(streamInfo, $"video.{streamInfo.Container}");
             }
@@ -129,13 +116,12 @@ namespace YouTubeDownloadProject.Services
                 Console.WriteLine("Error while downloading");
             }
         }
-
         /// <summary>
-        /// Download Audio only.
+        /// Download Audio only
         /// </summary>
         /// <param name="VidToDownload"></param>
         /// <returns></returns>
-        public static async Task DownloadYouTubeVidFunctionAudioOnly(VidInfoModell VidToDownload, int bitrate)
+        public static async Task DownloadYouTubeVidFunctionAudioOnly(VidInfoModell VidToDownload)
         {
             var youtube = new YoutubeClient();
 

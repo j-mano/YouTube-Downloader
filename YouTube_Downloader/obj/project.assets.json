@@ -368,7 +368,7 @@
           }
         }
       },
-      "YoutubeExplode/6.0.3": {
+      "YoutubeExplode/6.0.2": {
         "type": "package",
         "dependencies": {
           "AngleSharp": "0.14.0",
@@ -399,7 +399,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Google.Apis.YouTube.v3": "1.52.0.2343",
-          "YoutubeExplode": "6.0.3",
+          "YoutubeExplode": "6.0.2",
           "YoutubeExplode.Converter": "2.1.0"
         },
         "compile": {
@@ -1161,14 +1161,13 @@
         "version.txt"
       ]
     },
-    "YoutubeExplode/6.0.3": {
-      "sha512": "8GaNtu26KbKjfW0NBtCtC8SWBLOBHgyaggkqexZPNM21CZpShH/W+rSidVHMe5OkFrl9rYBfc8qmiZBy4yAGWQ==",
+    "YoutubeExplode/6.0.2": {
+      "sha512": "samzoiZlI9mAsZsYm/D/k7/6PCzpSLseBVAQtD+uSk5NUo94COu9D8XcWZE/kawoTo8g9UrQ1SKQFwQQ4kGMyA==",
       "type": "package",
-      "path": "youtubeexplode/6.0.3",
+      "path": "youtubeexplode/6.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "ReadMe.md",
         "favicon.png",
         "lib/net461/YoutubeExplode.dll",
         "lib/net461/YoutubeExplode.xml",
@@ -1180,7 +1179,7 @@
         "lib/netstandard2.0/YoutubeExplode.xml",
         "lib/netstandard2.1/YoutubeExplode.dll",
         "lib/netstandard2.1/YoutubeExplode.xml",
-        "youtubeexplode.6.0.3.nupkg.sha512",
+        "youtubeexplode.6.0.2.nupkg.sha512",
         "youtubeexplode.nuspec"
       ]
     },
@@ -1223,11 +1222,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Joachim\\Documents\\KodningsProject gitHub repos\\YouTube Downloader\\YouTube_Downloader\\YouTube_Downloader.csproj",
+      "projectUniqueName": "C:\\Users\\Joachim\\Downloads\\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\\YouTube_Downloader\\YouTube_Downloader.csproj",
       "projectName": "YouTube_Downloader",
-      "projectPath": "C:\\Users\\Joachim\\Documents\\KodningsProject gitHub repos\\YouTube Downloader\\YouTube_Downloader\\YouTube_Downloader.csproj",
+      "projectPath": "C:\\Users\\Joachim\\Downloads\\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\\YouTube_Downloader\\YouTube_Downloader.csproj",
       "packagesPath": "C:\\Users\\Joachim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Joachim\\Documents\\KodningsProject gitHub repos\\YouTube Downloader\\YouTube_Downloader\\obj\\",
+      "outputPath": "C:\\Users\\Joachim\\Downloads\\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\\YouTube_Downloader\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1248,8 +1247,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\Joachim\\Documents\\KodningsProject gitHub repos\\YouTube Downloader\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj": {
-              "projectPath": "C:\\Users\\Joachim\\Documents\\KodningsProject gitHub repos\\YouTube Downloader\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj"
+            "C:\\Users\\Joachim\\Downloads\\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj": {
+              "projectPath": "C:\\Users\\Joachim\\Downloads\\YouTube-Downloader-88dbad976bf079e325e0566351dec188e32bbac5\\YouTubeDownloadProject\\YouTubeDownloadProject.csproj"
             }
           }
         }

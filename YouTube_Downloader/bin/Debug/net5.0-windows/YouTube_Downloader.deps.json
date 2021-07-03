@@ -13,6 +13,11 @@
         },
         "runtime": {
           "YouTube_Downloader.dll": {}
+        },
+        "resources": {
+          "en/YouTube_Downloader.resources.dll": {
+            "locale": "en"
+          }
         }
       },
       "AngleSharp/0.14.0": {
