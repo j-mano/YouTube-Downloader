@@ -8,12 +8,24 @@
     ".NETCoreApp,Version=v5.0": {
       "AngleSharp/0.14.0": {
         "dependencies": {
-          "System.Text.Encoding.CodePages": "4.5.0"
+          "System.Text.Encoding.CodePages": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/AngleSharp.dll": {
             "assemblyVersion": "0.14.0.0",
             "fileVersion": "0.14.0.0"
+          }
+        }
+      },
+      "Aspose.Imaging/21.7.0": {
+        "dependencies": {
+          "System.Drawing.Common": "5.0.0",
+          "System.Text.Encoding.CodePages": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/Aspose.Imaging.dll": {
+            "assemblyVersion": "21.7.0.0",
+            "fileVersion": "21.7.0.0"
           }
         }
       },
@@ -25,57 +37,76 @@
           }
         }
       },
-      "Google.Apis/1.52.0": {
+      "Google.Apis/1.53.0": {
         "dependencies": {
-          "Google.Apis.Core": "1.52.0"
+          "Google.Apis.Core": "1.53.0"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.dll": {
-            "assemblyVersion": "1.52.0.0",
-            "fileVersion": "1.52.0.0"
+            "assemblyVersion": "1.53.0.0",
+            "fileVersion": "1.53.0.0"
           }
         }
       },
-      "Google.Apis.Auth/1.52.0": {
+      "Google.Apis.Auth/1.53.0": {
         "dependencies": {
-          "Google.Apis": "1.52.0",
-          "Google.Apis.Core": "1.52.0"
+          "Google.Apis": "1.53.0",
+          "Google.Apis.Core": "1.53.0"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {
-            "assemblyVersion": "1.52.0.0",
-            "fileVersion": "1.52.0.0"
+            "assemblyVersion": "1.53.0.0",
+            "fileVersion": "1.53.0.0"
           },
           "lib/netstandard2.0/Google.Apis.Auth.dll": {
-            "assemblyVersion": "1.52.0.0",
-            "fileVersion": "1.52.0.0"
+            "assemblyVersion": "1.53.0.0",
+            "fileVersion": "1.53.0.0"
           }
         }
       },
-      "Google.Apis.Core/1.52.0": {
+      "Google.Apis.Core/1.53.0": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.Core.dll": {
-            "assemblyVersion": "1.52.0.0",
-            "fileVersion": "1.52.0.0"
+            "assemblyVersion": "1.53.0.0",
+            "fileVersion": "1.53.0.0"
           }
         }
       },
-      "Google.Apis.YouTube.v3/1.52.0.2366": {
+      "Google.Apis.YouTube.v3/1.53.0.2378": {
         "dependencies": {
-          "Google.Apis": "1.52.0",
-          "Google.Apis.Auth": "1.52.0"
+          "Google.Apis": "1.53.0",
+          "Google.Apis.Auth": "1.53.0"
         },
         "runtime": {
           "lib/netstandard2.0/Google.Apis.YouTube.v3.dll": {
-            "assemblyVersion": "1.52.0.2366",
-            "fileVersion": "1.52.0.2366"
+            "assemblyVersion": "1.53.0.2378",
+            "fileVersion": "1.53.0.2378"
           }
         }
       },
-      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
       "Newtonsoft.Json/12.0.3": {
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {
@@ -84,49 +115,65 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+      "System.Drawing.Common/5.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
         "runtime": {
-          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "assemblyVersion": "4.0.4.0",
-            "fileVersion": "0.0.0.0"
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         }
       },
-      "System.Text.Encoding.CodePages/4.5.0": {
+      "System.Text.Encoding.CodePages/5.0.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+          "Microsoft.NETCore.Platforms": "5.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
-            "assemblyVersion": "4.1.1.0",
-            "fileVersion": "4.6.26515.6"
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         },
         "runtimeTargets": {
           "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll": {
             "rid": "win",
             "assetType": "runtime",
-            "assemblyVersion": "4.1.1.0",
-            "fileVersion": "4.6.26515.6"
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         }
       },
-      "YoutubeExplode/6.0.4": {
+      "YoutubeExplode/6.0.5": {
         "dependencies": {
           "AngleSharp": "0.14.0"
         },
         "runtime": {
           "lib/net5.0/YoutubeExplode.dll": {
-            "assemblyVersion": "6.0.4.0",
-            "fileVersion": "6.0.4.0"
+            "assemblyVersion": "6.0.5.0",
+            "fileVersion": "6.0.5.0"
           }
         }
       },
       "YoutubeExplode.Converter/2.1.0": {
         "dependencies": {
           "CliWrap": "3.3.2",
-          "YoutubeExplode": "6.0.4"
+          "YoutubeExplode": "6.0.5"
         },
         "runtime": {
           "lib/net5.0/YoutubeExplode.Converter.dll": {
@@ -145,6 +192,13 @@
       "path": "anglesharp/0.14.0",
       "hashPath": "anglesharp.0.14.0.nupkg.sha512"
     },
+    "Aspose.Imaging/21.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+jPHygVA/ELteaAuF2H04GW28BXlC9lcasYqzSqPBh5tABx4iurVGNHO5+851IbrmMNLKMC4eAHLHb9UGVYTTA==",
+      "path": "aspose.imaging/21.7.0",
+      "hashPath": "aspose.imaging.21.7.0.nupkg.sha512"
+    },
     "CliWrap/3.3.2": {
       "type": "package",
       "serviceable": true,
@@ -152,40 +206,47 @@
       "path": "cliwrap/3.3.2",
       "hashPath": "cliwrap.3.3.2.nupkg.sha512"
     },
-    "Google.Apis/1.52.0": {
+    "Google.Apis/1.53.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5YWTBzHuNUiYIUoIBkCGYMokyYuaOuAn+w96lIJ2WNqeiAurKq3ZLqZ86fYae32PDWHZa+itFYc9O1iVfYi5dQ==",
-      "path": "google.apis/1.52.0",
-      "hashPath": "google.apis.1.52.0.nupkg.sha512"
+      "sha512": "sha512-nLVl91WLUHuU/WVQfGXXf2UcNguTRvVorZujT06q6fjYKk/Q6UJDgEcO5Ti00vdb40sT1GQwnqUpPeSKjLSn2Q==",
+      "path": "google.apis/1.53.0",
+      "hashPath": "google.apis.1.53.0.nupkg.sha512"
     },
-    "Google.Apis.Auth/1.52.0": {
+    "Google.Apis.Auth/1.53.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-T7JKjq4zmk8b4lrOn+kyatgDQdLytoV+i6Fw4agyWlm4Q+bbZbu3DcCz+UuliEtXHbShgHD1PWfiMJoQGuPEog==",
-      "path": "google.apis.auth/1.52.0",
-      "hashPath": "google.apis.auth.1.52.0.nupkg.sha512"
+      "sha512": "sha512-f8MhaaP9aRoVpybRNfMKzBFrNh/Hw3z1TUBFsWWXYZOgcXFFUuFCFmAxyIjixdYxDG+DCwkoVnf5lSIXEy3QdA==",
+      "path": "google.apis.auth/1.53.0",
+      "hashPath": "google.apis.auth.1.53.0.nupkg.sha512"
     },
-    "Google.Apis.Core/1.52.0": {
+    "Google.Apis.Core/1.53.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cgQpnZ9IC5SBNsAFTXHKUMB8bOkBWPLtXcLgwSYkV8oL0FfUdHwrDzH5qrf/mFB9fQIPgJyV6tdUwf2hu1UJ+A==",
-      "path": "google.apis.core/1.52.0",
-      "hashPath": "google.apis.core.1.52.0.nupkg.sha512"
+      "sha512": "sha512-6pTO2f75pwYag0DenUz4A3fPBi2t8qHhlPAVXP6hsSWU5lP7pPqsxV8Oc2sgcBwVquMIL6DVw23Woc2vC73E9A==",
+      "path": "google.apis.core/1.53.0",
+      "hashPath": "google.apis.core.1.53.0.nupkg.sha512"
     },
-    "Google.Apis.YouTube.v3/1.52.0.2366": {
+    "Google.Apis.YouTube.v3/1.53.0.2378": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-20k7A7D5mmxWiVLaqyycwNU1LwfMS58FGv165DJRp4JNLjVpKumWLzijJiX8CE2Jri5s23TZgS+TJDWiiEFysg==",
-      "path": "google.apis.youtube.v3/1.52.0.2366",
-      "hashPath": "google.apis.youtube.v3.1.52.0.2366.nupkg.sha512"
+      "sha512": "sha512-BrzA/Z0mhYk0xb8MzFNcMr9kCHz1dkOckKAOW3XDflMSrN0WFAActls4ygACkVMBoujWhHy4cy9CXcA3uoQHDg==",
+      "path": "google.apis.youtube.v3/1.53.0.2378",
+      "hashPath": "google.apis.youtube.v3.1.53.0.2378.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/2.0.0": {
+    "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
-      "path": "microsoft.netcore.platforms/2.0.0",
-      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
     },
     "Newtonsoft.Json/12.0.3": {
       "type": "package",
@@ -194,26 +255,26 @@
       "path": "newtonsoft.json/12.0.3",
       "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+    "System.Drawing.Common/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-YrzNWduCDHhUaSRBxHxL11UkM2fD6y8hITHis4/LbQZ6vj3vdRjoH3IoPWWC9uDXK2wHIqn+b5gv1Np/VKyM1g==",
-      "path": "system.runtime.compilerservices.unsafe/4.5.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+      "sha512": "sha512-SztFwAnpfKC8+sEKXAFxCBWhKQaEd97EiOL7oZJZP56zbqnLpmxACWA8aGseaUExciuEAUuR9dY8f7HkTRAdnw==",
+      "path": "system.drawing.common/5.0.0",
+      "hashPath": "system.drawing.common.5.0.0.nupkg.sha512"
     },
-    "System.Text.Encoding.CodePages/4.5.0": {
+    "System.Text.Encoding.CodePages/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
-      "path": "system.text.encoding.codepages/4.5.0",
-      "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
+      "sha512": "sha512-NyscU59xX6Uo91qvhOs2Ccho3AR2TnZPomo1Z0K6YpyztBPM/A5VbkzOO19sy3A3i1TtEnTxA7bCe3Us+r5MWg==",
+      "path": "system.text.encoding.codepages/5.0.0",
+      "hashPath": "system.text.encoding.codepages.5.0.0.nupkg.sha512"
     },
-    "YoutubeExplode/6.0.4": {
+    "YoutubeExplode/6.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1m0JrNjM7HO2V37Yj5r5S9oAh5+92Z8Ytt7+11R90ftjxchtGHDYlcVQEHA6rfZtuDlkHF3bOOsPY4Q+c+nTvQ==",
-      "path": "youtubeexplode/6.0.4",
-      "hashPath": "youtubeexplode.6.0.4.nupkg.sha512"
+      "sha512": "sha512-64y2pjhnC+cOQozlqYASsRhrfIShJm1pvuo4nRPT+oA7rVQemOkpUEMrsayjY5zSVepGqEBx4GIzxi4wscxHsw==",
+      "path": "youtubeexplode/6.0.5",
+      "hashPath": "youtubeexplode.6.0.5.nupkg.sha512"
     },
     "YoutubeExplode.Converter/2.1.0": {
       "type": "package",

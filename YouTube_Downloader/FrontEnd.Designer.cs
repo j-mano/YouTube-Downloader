@@ -44,91 +44,62 @@ namespace YouTube_Downloader
             // 
             // Retrive_Inmfio_BTN
             // 
-            this.Retrive_Inmfio_BTN.Location = new System.Drawing.Point(509, 10);
+            resources.ApplyResources(this.Retrive_Inmfio_BTN, "Retrive_Inmfio_BTN");
             this.Retrive_Inmfio_BTN.Name = "Retrive_Inmfio_BTN";
-            this.Retrive_Inmfio_BTN.Size = new System.Drawing.Size(75, 23);
-            this.Retrive_Inmfio_BTN.TabIndex = 0;
-            this.Retrive_Inmfio_BTN.Text = "Retrive Info";
             this.Retrive_Inmfio_BTN.UseVisualStyleBackColor = true;
             this.Retrive_Inmfio_BTN.Click += new System.EventHandler(this.Retrive_Inmfio_BTN_Click);
             // 
             // VideoTitle_LBL
             // 
-            this.VideoTitle_LBL.AutoSize = true;
-            this.VideoTitle_LBL.Location = new System.Drawing.Point(12, 50);
+            resources.ApplyResources(this.VideoTitle_LBL, "VideoTitle_LBL");
             this.VideoTitle_LBL.Name = "VideoTitle_LBL";
-            this.VideoTitle_LBL.Size = new System.Drawing.Size(59, 15);
-            this.VideoTitle_LBL.TabIndex = 1;
-            this.VideoTitle_LBL.Text = "VideoTitle";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 68);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(572, 301);
-            this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // Description_LBL
             // 
-            this.Description_LBL.AutoSize = true;
-            this.Description_LBL.Location = new System.Drawing.Point(12, 372);
+            resources.ApplyResources(this.Description_LBL, "Description_LBL");
             this.Description_LBL.Name = "Description_LBL";
-            this.Description_LBL.Size = new System.Drawing.Size(67, 15);
-            this.Description_LBL.TabIndex = 3;
-            this.Description_LBL.Text = "Description";
             // 
             // YouTubbeLinkInput_Textbox
             // 
-            this.YouTubbeLinkInput_Textbox.Location = new System.Drawing.Point(12, 11);
+            resources.ApplyResources(this.YouTubbeLinkInput_Textbox, "YouTubbeLinkInput_Textbox");
             this.YouTubbeLinkInput_Textbox.Name = "YouTubbeLinkInput_Textbox";
-            this.YouTubbeLinkInput_Textbox.Size = new System.Drawing.Size(491, 23);
-            this.YouTubbeLinkInput_Textbox.TabIndex = 4;
             // 
             // Download_BTN
             // 
-            this.Download_BTN.Location = new System.Drawing.Point(509, 390);
+            resources.ApplyResources(this.Download_BTN, "Download_BTN");
             this.Download_BTN.Name = "Download_BTN";
-            this.Download_BTN.Size = new System.Drawing.Size(75, 23);
-            this.Download_BTN.TabIndex = 5;
-            this.Download_BTN.Text = "Download Video";
             this.Download_BTN.UseVisualStyleBackColor = true;
             this.Download_BTN.Click += new System.EventHandler(this.Download_BTN_Click);
             // 
             // Exit_BTN
             // 
-            this.Exit_BTN.Location = new System.Drawing.Point(509, 584);
+            resources.ApplyResources(this.Exit_BTN, "Exit_BTN");
             this.Exit_BTN.Name = "Exit_BTN";
-            this.Exit_BTN.Size = new System.Drawing.Size(75, 23);
-            this.Exit_BTN.TabIndex = 6;
-            this.Exit_BTN.Text = "Exit";
             this.Exit_BTN.UseVisualStyleBackColor = true;
             this.Exit_BTN.Click += new System.EventHandler(this.Exit_BTN_Click);
             // 
             // Description_TextBox
             // 
-            this.Description_TextBox.Location = new System.Drawing.Point(12, 390);
+            resources.ApplyResources(this.Description_TextBox, "Description_TextBox");
             this.Description_TextBox.Name = "Description_TextBox";
-            this.Description_TextBox.Size = new System.Drawing.Size(491, 217);
-            this.Description_TextBox.TabIndex = 9;
-            this.Description_TextBox.Text = "";
             // 
             // DownloadProgressLBL
             // 
-            this.DownloadProgressLBL.AutoSize = true;
-            this.DownloadProgressLBL.Location = new System.Drawing.Point(394, 372);
+            resources.ApplyResources(this.DownloadProgressLBL, "DownloadProgressLBL");
             this.DownloadProgressLBL.Name = "DownloadProgressLBL";
-            this.DownloadProgressLBL.Size = new System.Drawing.Size(109, 15);
-            this.DownloadProgressLBL.TabIndex = 10;
-            this.DownloadProgressLBL.Text = "Download Progress";
             // 
             // FrontEnd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(596, 619);
             this.Controls.Add(this.DownloadProgressLBL);
             this.Controls.Add(this.Description_TextBox);
             this.Controls.Add(this.Exit_BTN);
@@ -139,10 +110,10 @@ namespace YouTube_Downloader
             this.Controls.Add(this.VideoTitle_LBL);
             this.Controls.Add(this.Retrive_Inmfio_BTN);
             this.Name = "FrontEnd";
-            this.Text = "Youtube Downloader";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+
         }
 
         #endregion

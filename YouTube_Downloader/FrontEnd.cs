@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Drawing;
 using System.Net;
 using System.Windows.Forms;
 using YouTubeDownloadProject.Model;
@@ -47,7 +46,9 @@ namespace YouTube_Downloader
             {
                 SelectedVidInfo = await RetriveYouTubeVidInfo.getYoutubeVidAsync(GetEntertYoutubeLink());
 
-                pictureBox1.ImageLocation = SelectedVidInfo.thumb.Url.Trim();
+                string imageName = DownloadImageFromUrl(SelectedVidInfo.thumb.Url);
+
+                pictureBox1.ImageLocation = imageName;
 
                 printOutInfo();
             }
@@ -82,30 +83,22 @@ namespace YouTube_Downloader
             VideoTitle_LBL.Text = "Title of the clip: " + SelectedVidInfo.VidTitle;
         }
 
-        public System.Drawing.Image DownloadImageFromUrl(string imageUrl)
+        public string DownloadImageFromUrl(string imageUrl)
         {
-            System.Drawing.Image image = null;
+            string imageName = @"Thumbnail.png";
 
-            try
+            using (WebClient client4 = new WebClient())
             {
-                System.Net.HttpWebRequest webRequest = (System.Net.HttpWebRequest)System.Net.HttpWebRequest.Create(imageUrl);
-                webRequest.AllowWriteStreamBuffering = true;
-                webRequest.Timeout = 30000;
-
-                WebResponse webResponse = webRequest.GetResponse();
-
-                System.IO.Stream stream = webResponse.GetResponseStream();
-
-                image = Image.FromStream(stream);
-
-                webResponse.Close();
-            }
-            catch
-            {
-                return null;
+                client4.DownloadFile(new Uri(imageUrl), @"Thumbnail.WebP");
             }
 
-            return image;
+            using (var image = Aspose.Imaging.Image.Load(@"Thumbnail.WebP"))
+            {
+                var options = new Aspose.Imaging.ImageOptions.PngOptions();
+                image.Save(imageName, options);
+            }
+
+            return imageName;
         }
     }
 }

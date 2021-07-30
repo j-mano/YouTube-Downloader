@@ -119,3 +119,4 @@ C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTu
 C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\en\YouTube_Downloader.resources.dll
 C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.csproj.CopyComplete
 C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\obj\Debug\net5.0-windows\YouTube_Downloader.genruntimeconfig.cache
+C:\Users\Joachim\Documents\KodningsProject gitHub repos\YouTube-Downloader\YouTube_Downloader\bin\Debug\net5.0-windows\Aspose.Imaging.dll
